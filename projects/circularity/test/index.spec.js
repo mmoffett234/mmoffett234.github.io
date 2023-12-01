@@ -33,6 +33,8 @@ describe('Circularity', function() {
     });
 
     describe('TODO 1: should declare variables', function() {
+        var circle;
+        var circles = [];
         it('circles should be an array', function() {
             expect(circles).to.be.an('array');
         });
